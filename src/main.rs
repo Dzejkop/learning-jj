@@ -3,6 +3,7 @@
 fn main() {
     echo("Hello, world!");
     echo("fjdksla");
+    echo("fjdksla");
 }
 
 fn echo(s: impl std::fmt::Display) {
