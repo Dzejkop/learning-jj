@@ -1,14 +1,18 @@
 // blah blah
 
 fn main() {
-    println!("Hello, world!");
-    println!("Goodbye!");
+    print_hello();
+    print_goodbye();
 }
 
 fn echo() {
 
 }
 
-fn hello() {}
+fn print_hello() {
+    println!("Hello, World!")
+}
 
-fn goodbye() {}
+fn print_goodbye() {
+    println!("Goodbye!");
+}
