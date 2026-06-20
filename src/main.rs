@@ -8,3 +8,7 @@ fn main() {
 fn echo() {
 
 }
+
+fn hello() {}
+
+fn goodbye() {}
