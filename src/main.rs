@@ -1,11 +1,13 @@
 // blah blah
 
 fn main() {
-    println!("Hello, world!");
+    echo("Hello, world!");
+    echo("fjdksla");
+    echo("fjdksla");
 }
 
-fn echo() {
-
+fn echo(s: impl std::fmt::Display) {
+    println!("{s}");
 }
 
 fn print_hello() {
