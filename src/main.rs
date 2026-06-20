@@ -1,8 +1,7 @@
 // blah blah
 
 fn main() {
-    print_hello();
-    print_goodbye();
+    println!("Hello, world!");
 }
 
 fn echo() {
